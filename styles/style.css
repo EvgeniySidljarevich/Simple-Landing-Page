@@ -43,10 +43,22 @@ _____________________________________________________________ */
     padding: 20px 0;
 }
 
+.header__menu--btn {
+    display: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.header__countainer--inner {
+    width: 165px;
+}
+
 .header__nav {
     display: flex;
     justify-content: center;
     flex-grow: 1;
+    margin: 0 15px;
 }
 
 .header__link {
@@ -60,7 +72,6 @@ _____________________________________________________________ */
     width: 80px;
     height: 80px;
     background: #C4C4C4;
-    margin-right: 80px;
 }
 
 .header__button {
@@ -87,7 +98,7 @@ _____________________________________________________________ */
 }
 
 .hero__title {
-    margin-bottom: 20px;
+    margin-bottom: 1em;
     font-weight: bold;
     font-size: 64px;
     line-height: 120%;
@@ -108,7 +119,6 @@ _____________________________________________________________ */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     padding: 70px 0;
 }
 
@@ -125,7 +135,7 @@ _____________________________________________________________ */
 }
 
 .about__title {
-    margin-bottom: 60px;
+    margin-bottom: 1em;
     font-weight: bold;
     font-size: 53px;
     line-height: 120%;
