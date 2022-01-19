@@ -1,0 +1,58 @@
+@media (max-width: 1024px){
+    .hero__title,
+    .about__title {
+        font-size: 50px;
+    }
+
+    .hero {
+        padding: 150px 0;
+    }
+
+    .about__image {
+        width: 350px;
+        height: 350px;
+    }
+    .example {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px){
+    
+    .hero__title,
+    .about__title {
+        font-size: 40px;
+    }
+
+    .hero {
+        padding: 100px 0;
+    }
+}
+
+@media (max-width: 568px){
+    .header__nav,
+    .header__button {
+        display: none;
+    }
+
+    .header__menu-btn {
+        display: block;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .hero__title,
+    .about__title {
+        font-size: 30px;
+    }
+
+    .hero {
+        padding: 70px 0;
+    }
+
+    .header {
+        justify-content: space-between;
+    }
+}
