@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet" />
     <title>Simple Landing Page</title>
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/media.css">
   </head>
@@ -15,7 +16,7 @@
     <div class="wrapper">
       <!-- HEADER -->
       <header class="header">
-        <div class="header__countainer--inner">
+        <div class="header__countainer-inner">
           <div class="header__logo"></div>
         </div>
         <nav class="header__nav">
@@ -23,10 +24,10 @@
           <a href="/" class="header__link">About</a>
           <a href="/" class="header__link">Contacts</a>
         </nav>
-        <div class="header__countainer--inner">
+        <div class="header__countainer-inner">
           <button class="header__button">Download Now</button>
         </div>
-        <button class="header__menu--btn">
+        <button class="header__menu-btn">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="26"
@@ -60,23 +61,93 @@
           <h3 class="about__title">Nulla commodo aliqua aliqua ut</h3>
           <div class="about__articles">
             <article class="about__article">
-              <p class="about__article--preview">
+              <p class="about__article-preview">
                 Lorem quis sunt magna dolor consectetur aliqua officia laborum
                 reprehenderit
               </p>
-              <a href="/" class="about__article--link">Read more</a>
+              <a href="/" class="about__article-link">Read more 
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 8">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg></a>
             </article>
             <article class="about__article">
-              <p class="about__article--preview">
+              <p class="about__article-preview">
                 Lorem quis sunt magna dolor consectetur aliqua officia laborum
                 reprehenderit
               </p>
-              <a href="/" class="about__article--link">Read more</a>
+              <a href="/" class="about__article-link">Read more 
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 8">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg></a>
             </article>
           </div>
         </div>
-        <img src="assets/tiger.jpg" alt="" class="about__image" />
+        <img src="assets/images/tiger.jpg" alt="" class="about__image" />
       </div>
-    </div>
+      <!-- SERVICES -->
+      <div class="services">
+        <div class="services_content">
+          <h4 class="services_title">Nulla ut ea</h4>
+          <p class="services_subtitle">Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident. Exercitation velit ea incididunt</p>
+        </div>
+        <div class="services_links">
+          <a href="/" class="services_link">Graphic Design</a>
+          <a href="/" class="services_link">UX Design</a>
+          <a href="/" class="services_link">Prototyping</a>
+          <a href="/" class="services_link">Webflow</a>
+          <a href="/" class="services_link">Branding</a>
+          <a href="/" class="services_link">Coding</a>
+          <a href="/" class="services_link">Back-End</a>
+        </div>
+      </div>
+      <!-- EXAMPLE -->
+      <div class="example">
+        <div class="example_content">
+          <h4 class="example_title">Where teams design together</h4>
+          <p class="example_subtitle">Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+        </div>
+        <img src="assets/images/cat.jpg" alt="" class="example_img">
+        <img src="assets/images/dog.jpg" alt="" class="example_img">
+        <img src="assets/images/grey_cat.jpg" alt="" class="example_img">
+      </div>
+      <!-- ARTICLES -->
+      <div class="articles">
+        <h3 class="articles_title">Nulla commodo aliqua aliqua ut</h3>
+        <div class="articles_board">
+          <article class="articles_article">Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum fugiat laboris minim nostrud dolor qui.
+            <h6 class="author">Ralph Richards</h6>
+            <p class="post">UX Designer</p>
+          </article>
+          <article class="articles_article">Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum fugiat laboris minim nostrud dolor qui.
+            <h6 class="author">Angel Wilson</h6>
+            <p class="post">UX Designer</p></article>
+        </div>
+      </div>
+      <!-- FOOTER -->
+      <div class="footer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="81" height="116" viewBox="0 0 81 116" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M20.3807 0.133737C20.5997 0.0454437 20.8345 0 21.0716 0H59.6038C59.8409 0 60.0757 0.0454437 60.2947 0.133737L73.9179 5.62481C74.3603 5.80313 74.7118 6.14515 74.895 6.57564L80.5379 19.8323C80.7212 20.2628 80.7212 20.7465 80.5379 21.1769L74.895 34.4336C74.7118 34.8641 74.3603 35.2061 73.9179 35.3844L64.3217 39.2523L73.9179 43.1202C74.3603 43.2985 74.7118 43.6405 74.895 44.071L80.5379 57.3277C80.7212 57.7582 80.7212 58.2418 80.5379 58.6723L74.895 71.929C74.7118 72.3595 74.3603 72.7015 73.9179 72.8798L60.2947 78.3709C59.8523 78.5492 59.3552 78.5492 58.9128 78.3709L45.2897 72.8798C44.8473 72.7015 44.4958 72.3595 44.3125 71.929L42.1432 66.8326V76.4987C42.1432 76.5406 42.1417 76.5821 42.1387 76.6232C42.1417 76.6643 42.1432 76.7058 42.1432 76.7477V95.4954C42.1432 95.7261 42.0965 95.9546 42.0057 96.1677L36.3628 109.424C36.1796 109.855 35.8281 110.197 35.3857 110.375L21.7625 115.866C21.3201 116.045 20.823 116.045 20.3807 115.866L6.75747 110.375C6.31507 110.197 5.96359 109.855 5.78034 109.424L0.137435 96.1677C-0.0458115 95.7372 -0.0458115 95.2536 0.137435 94.8231L5.78034 81.5664C5.96359 81.1359 6.31507 80.7939 6.75747 80.6156L16.6624 76.6232L6.75747 72.6308C6.31507 72.4525 5.96359 72.1105 5.78034 71.68L0.137435 58.4234C-0.0458115 57.9929 -0.0458115 57.5092 0.137435 57.0787L5.78034 43.8221C5.96359 43.3916 6.31507 43.0496 6.75747 42.8713L16.0448 39.1278L6.75747 35.3844C6.31507 35.2061 5.96359 34.8641 5.78034 34.4336L0.137435 21.1769C-0.0458115 20.7465 -0.0458115 20.2628 0.137435 19.8323L5.78034 6.57564C5.96359 6.14515 6.31507 5.80313 6.75747 5.62481L20.3807 0.133737ZM20.8469 40.9956L10.6357 45.1114L38.5322 72.2572V41.0092H21.0716C20.9963 41.0092 20.9213 41.0046 20.8469 40.9956ZM42.1432 41.0092V49.1674L44.3125 44.071C44.4958 43.6405 44.8473 43.2985 45.2897 43.1202L50.527 41.0092H42.1432ZM59.2446 37.4954H42.1432V5.99846L70.0396 33.1443L59.2446 37.4954ZM72.593 30.6596L76.9156 20.5046L71.8451 8.59266L59.2446 3.51382H44.6965L72.593 30.6596ZM38.5322 3.51382H21.4307L10.6357 7.86492L38.5322 35.0107V3.51382ZM35.723 37.2464H21.0716C20.9963 37.2464 20.9213 37.251 20.8469 37.2601L8.83026 32.4165L3.75973 20.5046L8.0824 10.3496L35.723 37.2464ZM59.6038 41.154L49.1679 45.3603L72.593 68.155L76.9156 58L71.8451 46.0881L59.6038 41.154ZM70.0396 70.6397L46.6146 47.845L42.2919 58L47.3624 69.9119L59.6038 74.846L70.0396 70.6397ZM35.9788 74.7418L8.0824 47.596L3.75974 57.751L8.83026 69.663L21.4307 74.7418H35.9788ZM21.4307 78.5046H38.5322V95.1459L34.0608 105.65L10.6357 82.8557L21.4307 78.5046ZM8.0824 85.3404L3.75974 95.4954L8.83026 107.407L21.0716 112.341L31.5074 108.135L8.0824 85.3404Z" fill="#3928A6"/>
+          </svg>
+          <div class="footer_logo">
+            <p class="footer_logo-title">cillum incididunt</p>
+            <div class="footer_logo-icons">
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22" fill="none">
+                <path d="M3.17411 18.0585V8.76381H6.26786V18.0585H3.17411ZM6.46875 5.89774C6.46875 6.78167 5.79911 7.50488 4.71429 7.50488H4.70089C3.65625 7.50488 2.98661 6.78167 2.98661 5.89774C2.98661 4.98703 3.68304 4.2906 4.74107 4.2906C5.79911 4.2906 6.45536 4.98703 6.46875 5.89774ZM14.3036 18.0585V13.0897C14.3036 11.8308 13.8616 10.987 12.75 10.987C11.8929 10.987 11.3839 11.5629 11.1563 12.112C11.0759 12.3129 11.0625 12.5942 11.0625 12.862V18.0585H7.96875C8.00893 9.63435 7.96875 8.76381 7.96875 8.76381H11.0625V10.1165H11.0357C11.4375 9.47363 12.1741 8.54953 13.8348 8.54953C15.8705 8.54953 17.3973 9.87542 17.3973 12.7281V18.0585H14.3036ZM20.5714 4.69238C20.5714 2.56292 18.8438 0.835239 16.7143 0.835239H3.85714C1.72768 0.835239 0 2.56292 0 4.69238V17.5495C0 19.679 1.72768 21.4067 3.85714 21.4067H16.7143C18.8438 21.4067 20.5714 19.679 20.5714 17.5495V4.69238Z" fill="#2B2B2B"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="29" viewBox="0 0 24 29" fill="none">
+                  <path d="M21.5156 9.81738C22.4531 9.11426 23.2969 8.27051 23.9531 7.28613C23.1094 7.66113 22.125 7.94238 21.1406 8.03613C22.1719 7.42676 22.9219 6.48926 23.2969 5.31738C22.3594 5.87988 21.2812 6.30176 20.2031 6.53613C19.2656 5.55176 18 4.98926 16.5938 4.98926C13.875 4.98926 11.6719 7.19238 11.6719 9.91113C11.6719 10.2861 11.7188 10.6611 11.8125 11.0361C7.73438 10.8018 4.07812 8.83301 1.64062 5.87988C1.21875 6.58301 0.984375 7.42676 0.984375 8.36426C0.984375 10.0518 1.82812 11.5518 3.1875 12.4424C2.39062 12.3955 1.59375 12.208 0.9375 11.833V11.8799C0.9375 14.2705 2.625 16.2393 4.875 16.708C4.5 16.8018 4.03125 16.8955 3.60938 16.8955C3.28125 16.8955 3 16.8486 2.67188 16.8018C3.28125 18.7705 5.10938 20.1768 7.26562 20.2236C5.57812 21.5361 3.46875 22.333 1.17188 22.333C0.75 22.333 0.375 22.2861 0 22.2393C2.15625 23.6455 4.73438 24.4424 7.54688 24.4424C16.5938 24.4424 21.5156 16.9893 21.5156 10.4736C21.5156 10.2393 21.5156 10.0518 21.5156 9.81738Z" fill="#2B2B2B"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="29" viewBox="0 0 15 29" fill="none">
+                <path d="M13.0781 16.1924L13.7344 11.8799H9.5625V9.06738C9.5625 7.84863 10.125 6.72363 12 6.72363H13.9219V3.02051C13.9219 3.02051 12.1875 2.69238 10.5469 2.69238C7.125 2.69238 4.875 4.80176 4.875 8.55176V11.8799H1.03125V16.1924H4.875V26.6924H9.5625V16.1924H13.0781Z" fill="#2B2B2B"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="29" viewBox="0 0 22 29" fill="none">
+                <path d="M14.7143 15.121C14.7143 17.0093 13.1741 18.5495 11.2857 18.5495C9.39732 18.5495 7.85714 17.0093 7.85714 15.121C7.85714 13.2326 9.39732 11.6924 11.2857 11.6924C13.1741 11.6924 14.7143 13.2326 14.7143 15.121ZM16.5625 15.121C16.5625 12.2013 14.2054 9.84417 11.2857 9.84417C8.36607 9.84417 6.00893 12.2013 6.00893 15.121C6.00893 18.0406 8.36607 20.3977 11.2857 20.3977C14.2054 20.3977 16.5625 18.0406 16.5625 15.121ZM18.0089 9.62988C18.0089 8.94685 17.4598 8.39774 16.7768 8.39774C16.0938 8.39774 15.5446 8.94685 15.5446 9.62988C15.5446 10.3129 16.0938 10.862 16.7768 10.862C17.4598 10.862 18.0089 10.3129 18.0089 9.62988ZM11.2857 6.68345C12.7857 6.68345 16 6.56292 17.3527 7.09863C17.8214 7.28613 18.1696 7.51381 18.5313 7.87542C18.8929 8.23703 19.1205 8.58524 19.308 9.05399C19.8438 10.4067 19.7232 13.621 19.7232 15.121C19.7232 16.621 19.8438 19.8352 19.308 21.1879C19.1205 21.6567 18.8929 22.0049 18.5313 22.3665C18.1696 22.7281 17.8214 22.9558 17.3527 23.1433C16 23.679 12.7857 23.5585 11.2857 23.5585C9.78571 23.5585 6.57143 23.679 5.21875 23.1433C4.75 22.9558 4.40179 22.7281 4.04018 22.3665C3.67857 22.0049 3.45089 21.6567 3.26339 21.1879C2.72768 19.8352 2.84821 16.621 2.84821 15.121C2.84821 13.621 2.72768 10.4067 3.26339 9.05399C3.45089 8.58524 3.67857 8.23703 4.04018 7.87542C4.40179 7.51381 4.75 7.28613 5.21875 7.09863C6.57143 6.56292 9.78571 6.68345 11.2857 6.68345ZM21.5714 15.121C21.5714 13.7013 21.5848 12.2951 21.5045 10.8754C21.4241 9.2281 21.0491 7.76828 19.8438 6.56292C18.6384 5.35756 17.1786 4.98256 15.5312 4.9022C14.1116 4.82185 12.7054 4.83524 11.2857 4.83524C9.86607 4.83524 8.45982 4.82185 7.04018 4.9022C5.39286 4.98256 3.93304 5.35756 2.72768 6.56292C1.52232 7.76828 1.14732 9.2281 1.06696 10.8754C0.986607 12.2951 1 13.7013 1 15.121C1 16.5406 0.986607 17.9468 1.06696 19.3665C1.14732 21.0138 1.52232 22.4736 2.72768 23.679C3.93304 24.8843 5.39286 25.2593 7.04018 25.3397C8.45982 25.4201 9.86607 25.4067 11.2857 25.4067C12.7054 25.4067 14.1116 25.4201 15.5312 25.3397C17.1786 25.2593 18.6384 24.8843 19.8438 23.679C21.0491 22.4736 21.4241 21.0138 21.5045 19.3665C21.5848 17.9468 21.5714 16.5406 21.5714 15.121Z" fill="#2B2B2B"/>
+                </svg>
+            </div>
+            <p class="footer_logo-subtitle">Nostrud aliquip laboris
+              © 2020 Wirefigma</p>
+          </div>
+      </div>
+      </div>
   </body>
 </html>
