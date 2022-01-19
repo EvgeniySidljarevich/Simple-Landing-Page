@@ -150,8 +150,6 @@ _____________________________________________________________ */
     display: flex;
     padding: 40px 0;
     height: 350px;
-    /* background: chartreuse; */
-
 }
 
 .services_content {
@@ -160,7 +158,6 @@ _____________________________________________________________ */
     flex-direction: column;
     justify-content: center;
     max-width: 568px;
-    /* background: rgb(143, 133, 126); */
 }
 
 .services_title {
@@ -183,7 +180,6 @@ _____________________________________________________________ */
     flex-grow: 1;
     flex-wrap: wrap;
     min-width: 568px;
-    /* background: cyan; */
 }
 
 .services_link {
@@ -202,7 +198,6 @@ _____________________________________________________________ */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* background: rgb(122, 120, 118); */
 }
 
 .example_content {
@@ -210,7 +205,6 @@ _____________________________________________________________ */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background: rgb(119, 194, 194); */
 }
 
 .example_title {
@@ -240,7 +234,6 @@ _____________________________________________________________ */
 
 .articles {   
     padding: 40px 0;
-    /* background: chartreuse; */
 }
 
 .articles_title {
@@ -254,14 +247,12 @@ _____________________________________________________________ */
 }
 
 .articles_board {
-    /* background: chocolate; */
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .articles_article {
-    /* background: coral; */
     margin: 5px 10px;
     padding: 30px 40px;
     width: 433px;
@@ -294,13 +285,11 @@ _____________________________________________________________ */
     padding: 50px 20px;
     display: flex;
     justify-content: space-between;
-    /* background: rgb(167, 157, 117); */
 }
 
 .footer_logo {
     width: 200px;
     padding: 5px 5px;
-    /* background: cornflowerblue; */
 }
 
 .footer_logo-title {
@@ -315,7 +304,6 @@ _____________________________________________________________ */
     padding: 20px 0px;
     display: flex;
     justify-content: space-between;
-    /* background: darkblue; */
 }
 
 .footer_logo-subtitle {
@@ -324,5 +312,4 @@ _____________________________________________________________ */
     display: flex;
     align-items: center;
     color: #2B2B2B;
-    /* background: darkkhaki; */
 }
