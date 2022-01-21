@@ -31,6 +31,10 @@
     .articles_title {
         font-size: 40px;
     }
+
+    .services_link {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 568px){
