@@ -106,6 +106,7 @@ _____________________________________________________________ */
     height: 400px;
     object-fit: cover;
     margin-left: 10px;
+    border-radius: 5px;
 }
 
 .about__content {
