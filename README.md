@@ -1,7 +1,6 @@
 # Simple-Landing-Page
 
-#### This project contains simple landing page for Web browser. 
-Project was created using HTML, CSS, BEM metodology, flexbox.
+#### This project contains simple landing page for Web browser. Project was created using HTML, CSS, BEM metodology, flexbox.  
 
 
 
