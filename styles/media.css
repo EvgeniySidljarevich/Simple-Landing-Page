@@ -15,6 +15,9 @@
     .example {
         justify-content: center;
     }
+    .about {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 768px){
@@ -66,5 +69,10 @@
 
     .articles_title {
         font-size: 30px;
+    }
+
+    .example_img {
+        width: 350px;
+        height: 350px;
     }
 }
