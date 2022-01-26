@@ -31,11 +31,11 @@
         padding: 100px 0;
     }
 
-    .articles_title {
+    .articles__title {
         font-size: 40px;
     }
 
-    .services_link {
+    .services__link {
         font-size: 20px;
     }
 }
@@ -67,11 +67,11 @@
         justify-content: space-between;
     }
 
-    .articles_title {
+    .articles__title {
         font-size: 30px;
     }
 
-    .example_img {
+    .example__img {
         width: 350px;
         height: 350px;
     }
