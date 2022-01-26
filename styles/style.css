@@ -157,7 +157,7 @@ _____________________________________________________________ */
     padding: 50px 0;
 }
 
-.services_content {
+.services__content {
     padding-right: 10px;
     margin-top: auto;
     margin-bottom: auto;
@@ -166,7 +166,7 @@ _____________________________________________________________ */
     max-width: 420px;
 }
 
-.services_title {
+.services__title {
     margin-bottom: 30px;
     font-weight: bold;
     font-size: 39px;
@@ -174,13 +174,13 @@ _____________________________________________________________ */
     color: #2B2B2B;
 }
 
-.services_subtitle {
+.services__subtitle {
     font-size: 18px;
     line-height: 28px;
     color: #2B2B2B
 }
 
-.services_links {
+.services__links {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -190,7 +190,7 @@ _____________________________________________________________ */
     margin-top: 30px;
 }
 
-.services_link {
+.services__link {
     padding: 10px;
     font-weight: bold;
     font-size: 31px;
@@ -207,14 +207,14 @@ _____________________________________________________________ */
     flex-wrap: wrap;
 }
 
-.example_content {
+.example__content {
     max-width: 420px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.example_title {
+.example__title {
     margin-bottom: 30px;
     font-weight: bold;
     font-size: 25px;
@@ -222,20 +222,20 @@ _____________________________________________________________ */
     color: #2B2B2B;
 }
 
-.example_subtitle {
+.example__subtitle {
     margin-bottom: 30px;
     font-size: 16px;
     line-height: 150%;
     color: #2B2B2B;
 }
 
-.example_images {
+.example__images {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.example_img {
+.example__img {
     margin: 10px;
     width: 236px;
     height: 214px;
@@ -250,7 +250,7 @@ _____________________________________________________________ */
     padding: 50px 0;
 }
 
-.articles_title {
+.articles__title {
     padding: 0 50px;
     margin-bottom: 35px;
     font-weight: bold;
@@ -260,13 +260,13 @@ _____________________________________________________________ */
     color: #2B2B2B;
 }
 
-.articles_board {
+.articles__board {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.articles_article {
+.articles__article {
     margin: 5px 10px;
     padding: 30px 40px;
     width: 433px;
@@ -300,12 +300,12 @@ _____________________________________________________________ */
     justify-content: space-between;
 }
 
-.footer_logo {
+.footer__logo {
     width: 200px;
     padding: 5px 5px;
 }
 
-.footer_logo-title {
+.footer__logo-title {
     text-align: center;
     font-weight: bold;
     font-size: 14px;
@@ -313,13 +313,13 @@ _____________________________________________________________ */
     color: #2B2B2B;
 }
 
-.footer_logo-icons {
+.footer__logo-icons {
     padding: 20px 0px;
     display: flex;
     justify-content: space-between;
 }
 
-.footer_logo-subtitle {
+.footer__logo-subtitle {
     font-size: 14px;
     line-height: 150%;
     display: flex;
