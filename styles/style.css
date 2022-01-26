@@ -67,7 +67,7 @@ _____________________________________________________________ */
 /* ! Hero 
 _____________________________________________________________ */
 .hero {
-    padding: 200px 0;
+    padding: 50px 0;
 }
 
 .hero__content {
@@ -98,24 +98,23 @@ _____________________________________________________________ */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .about__image {
     width: 400px;
     height: 400px;
     object-fit: cover;
-    margin-left: 10px;
     border-radius: 5px;
 }
 
 .about__content {
     max-width: 80%;
-    margin-bottom: 50px;
 }
 
 .about__title {
     margin-bottom: 1em;
+    max-width: 600px;
     font-weight: bold;
     font-size: 53px;
     line-height: 120%;
@@ -137,12 +136,15 @@ _____________________________________________________________ */
 }
 
 .about__articles {
+    margin-bottom: 40px;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .about__article {
-    width: 260px;
-    margin-right: 20px;
+    max-width: 260px;
+    margin-bottom: 35px;
 }
 
 /* ! Services 
@@ -150,17 +152,18 @@ _____________________________________________________________ */
 
 .services {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    padding: 40px 0;
+    padding: 50px 0;
 }
 
 .services_content {
-    margin-right: 10px;
+    padding-right: 10px;
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
     flex-direction: column;
-    max-width: 568px;
+    max-width: 420px;
 }
 
 .services_title {
@@ -182,12 +185,13 @@ _____________________________________________________________ */
     flex-direction: column;
     flex-grow: 1;
     flex-wrap: wrap;
+    min-width: 380px;
     max-height: 270px;
     margin-top: 30px;
 }
 
 .services_link {
-    padding: 10px 10px;
+    padding: 10px;
     font-weight: bold;
     font-size: 31px;
     line-height: 42px;
@@ -201,7 +205,6 @@ _____________________________________________________________ */
     padding: 50px 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .example_content {
@@ -226,18 +229,25 @@ _____________________________________________________________ */
     color: #2B2B2B;
 }
 
+.example_images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .example_img {
-    margin: 10px 10px;
+    margin: 10px;
     width: 236px;
     height: 214px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 /* ! Article 
 _____________________________________________________________ */
 
 .articles {   
-    padding: 40px 0;
+    padding: 50px 0;
 }
 
 .articles_title {
@@ -260,7 +270,6 @@ _____________________________________________________________ */
     margin: 5px 10px;
     padding: 30px 40px;
     width: 433px;
-    height: 300px;
     font-size: 18px;
     line-height: 28px;
     color: #2B2B2B;
